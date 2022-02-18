@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Exo 2", "sans-serif";
+    background-image: url("img/table.png");
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    letter-spacing: 1px;
+}
+
+button {
+    background-color: yellow;
+    cursor: pointer;
+    border: none;
+}
+
+#new-deck {
+    align-self: flex-start;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+
+#draw-cards {
+    font-size: 1.1rem;
+    align-self: stretch;
+    padding: 5px;
+}
+
+.card-slot1, .card-slot2 {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 120px;
+    width: calc(120px * 5 / 7);
+}
+
+.card-slot1 {
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    margin-top: -20px;
+    padding-bottom: 20px;
+    margin-bottom: -15px;
+    text-shadow: 1px 1px 3px black;
+    border-bottom: solid 3px black;
+}
+
+.top {
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 35px;
+}
+
+.top > p {
+    margin: 0;
+    margin-left: 10px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+#computer-score {
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
