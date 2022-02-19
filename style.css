@@ -16,21 +16,27 @@ body {
 }
 
 button {
-    background-color: yellow;
+    background-color: red;    
     cursor: pointer;
-    border: none;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
 
 #new-deck {
     align-self: flex-start;
-    padding: 5px;
-    font-size: 1.1rem;
+    padding: 10px;
+    font-size: 1rem;
+    border-right: solid 3px white;
+    border-bottom: solid 3px white;
 }
 
 #draw-cards {
-    font-size: 1.1rem;
+    font-size: 1rem;
     align-self: stretch;
-    padding: 5px;
+    padding: 10px;
+    border-top: solid 3px white;
 }
 
 .card-slot1, .card-slot2 {
@@ -76,4 +82,13 @@ button:disabled {
 #computer-score {
     margin-bottom: 0;
     padding-bottom: 30px;
+}
+
+#description {
+    margin-top: -20px;
+    padding-bottom: 15px;
+    font-family: "Exo 2", "sans-serif";
+    text-shadow: 1px 1px 3px black;
+    margin-left: 15px;
+    font-size: 1.1rem;
 }

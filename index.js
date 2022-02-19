@@ -61,6 +61,8 @@ if (card1ValueIndex > card2ValueIndex) {
     return "Pari!"
 }}
 
+
+
 /*const card1Obj = {
     value: "JACK"
 }
